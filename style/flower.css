@@ -74,7 +74,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 221px;
-    
+    align-items: end;
 }
 
  .banner-title h1{
@@ -94,8 +94,7 @@ margin-top: 45px;
     display: block;
     margin-top: 10px;
  
-    align-items:end;
-
+    
    
  }
 
@@ -110,17 +109,22 @@ margin-top: 45px;
  /* responsive media query for mobile */
 
  @media screen and (max-width:576px) {
-    .navbar{
-        width:100%; 
-        
-      
-    }
+  .navbar{
+    width: 550px;
+    margin: 25px 0 25px 30px ;
+  }
    
     .none{
         display: none;
     }
     .banner{
         flex-direction: column-reverse;
+    }
+    .banner h1{
+        margin: 30px 25px;
+    }
+    .banner p{
+         margin: 0px 25px;
     }
  } 
     
