@@ -92,6 +92,7 @@ margin-top: 45px;
 
  .banner-title p{
     margin-top: 10px;
+    text-align: left;
  }
 
  .banner-img{
@@ -178,7 +179,7 @@ margin: 10px;
     }
     .banner p{
          margin: 20px;
-         margin-top: -30px;
+         margin-top: -15px;
          
     }
  } 
