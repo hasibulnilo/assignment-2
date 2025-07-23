@@ -1,0 +1,127 @@
+/* common */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Noto Serif", serif;
+}
+
+
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+
+
+
+
+
+/* shared style */
+.display-flex{
+    display: flex;
+}
+
+/* h1 color */
+
+.title-color{
+
+    color: #E95A08;
+}
+
+/* for navbar */
+.text-gray{
+    color: #8987A1;
+}
+/* for paragraph */
+.text-light-gray{
+
+    color: #00000080;
+}
+
+
+/* header style */
+
+/* navbar */
+
+.navbar{
+    justify-content: space-between ;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.nav-img{
+    width: 100px;
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+    
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 16px;
+     font-weight: 400;
+      
+
+}
+
+/* banner */
+
+.banner{
+    align-items: center;
+    justify-content: center;
+    margin-top: 221px;
+    
+}
+
+ .banner-title h1{
+    font-size: 55px;
+font-weight: 700;
+margin-top: 45px;
+ }
+
+ .banner-title{
+
+    flex: 1;
+    gap: 13px;
+    flex-direction: column;
+ }
+
+ .banner-title p{
+    display: block;
+    margin-top: 10px;
+ 
+    align-items:end;
+
+   
+ }
+
+ .banner-img{
+
+
+    width: 100%;
+    flex: 1;
+ }
+
+
+ /* responsive media query for mobile */
+
+ @media screen and (max-width:576px) {
+    .navbar{
+        width:100%; 
+        
+      
+    }
+   
+    .none{
+        display: none;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+ } 
+    
+ 
