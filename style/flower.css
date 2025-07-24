@@ -159,7 +159,81 @@ margin: 10px;
 
 }
 
+/* flower & plant style */
+.feature-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+ 
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 150px;
+  margin-left: 60px;
+}
 
+.image-container {
+  position: relative;
+  width: 600px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+  position: relative;
+  z-index: 1;
+}
+
+.badge {
+  position: absolute;
+  top: -130px;
+  right: -140px;
+  width: 300px;
+  z-index: 2;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.4));
+  z-index: 1;
+  border-radius: 6px;
+}
+
+.text-content {
+  max-width: 550px;
+  color: black;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 130px;
+}
+
+.text-content h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.text-content ul {
+  padding-left: 50px;
+  margin-bottom: 50px;
+}
+
+.text-content li {
+  margin-bottom: 15px;
+  color: #00000080;
+  line-height: 1.5;
+  list-style-type: disc;
+   font-size: 22px;
+  
+}
 
 /* Deals style */
 .deals{
@@ -346,9 +420,14 @@ text-decoration: underline;
  @media screen and (max-width:576px) {
   .navbar{
     width: 550px;
-    margin: 80px 0 25px 30px ;
+    margin: 80px 40px 35px 50px ;
   }
    
+  
+ .banner-img{
+
+  padding: 40px;
+ }
     .none{
         display: none;
     }
@@ -372,14 +451,14 @@ text-decoration: underline;
 
   @media screen and (max-width:576px) {
  .plants h2,p{
-     margin-left: 100px;
+     margin-left: 130px;
     text-align: center;
 
  }
      .plants-card{
     
         grid-template-columns: repeat(2, 1fr);
-       margin-left: 10px;
+       margin-left: 25px;
      }
 
      .none2{
@@ -392,16 +471,17 @@ text-decoration: underline;
 /* Deals responsive for mobile  */
     @media screen and (max-width:576px){
 
-   .deals h2{
+   .deals h2,p{
 
-margin-left: 120px;
+margin-left: 160px;
+text-align: center;
 
    }
       
 .promo-container {
 
    flex-direction: column;
-   width: 500px;
+   width: 520px;
 
 
 }
@@ -427,9 +507,50 @@ padding: 72px 180px;
   
   .subscribe-section{
     width: 550px;
-    left: 15px;
+    left: 30px;
     margin-bottom: 10px;
     margin-top: 20px;
   }
 
 }
+
+
+
+/*flower and plant responsive  */
+ @media screen and (max-width:576px){
+
+.feature-section{
+
+width: 550px;
+  flex-direction: column;
+ 
+
+}
+.none3{
+  display: none;
+}
+.image-container{
+  width: 550px;
+  position: relative;
+  right: 50px;
+ 
+  margin-top: 0;
+}
+.text-content{
+  width: 500px;
+  position: relative;
+  right: 50px;
+  margin-top: 0px;
+}
+.text-content ul{
+margin: 0 auto;
+  padding: 50px;
+}
+
+.text-content h2 {
+
+  padding-left: 50px;
+  margin: 0 auto;
+}
+
+ }
