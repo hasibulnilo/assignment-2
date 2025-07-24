@@ -159,6 +159,107 @@ margin: 10px;
 
 }
 
+
+
+/* Deals style */
+.deals{
+
+    text-align: center;
+     margin-top: 130px;
+}
+.deals p{
+
+    margin-top: 20px;
+}
+
+.promo-section {
+  padding: 40px;
+}
+
+.promo-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  
+}
+
+.left-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+  min-width: 300px;
+  
+}
+
+.promo-card {
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.promo-card.large {
+  flex: 2;
+
+ 
+ 
+}
+
+
+.for-zabo{
+
+     text-align: center;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 220px 222px;
+}
+.for-zabo a{
+
+text-decoration: underline;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.promo-content {
+  
+
+  text-align: center;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 80px 100px;
+}
+
+
+.promo-content h2,
+.promo-content h4 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+
+.promo-content a {
+  text-decoration: underline;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+
+
  /* responsive media query for mobile */
 /* navbar and banner */
  @media screen and (max-width:576px) {
@@ -186,6 +287,7 @@ margin: 10px;
     
  
 
+/* Plant reponsive for mobile */
 
   @media screen and (max-width:576px) {
  .plants h2,p{
@@ -205,3 +307,30 @@ margin: 10px;
 
   }
 
+
+/* Deals responsive for mobile  */
+    @media screen and (max-width:576px){
+
+   .deals h2{
+
+margin-left: 120px;
+
+   }
+      
+.promo-container {
+
+   flex-direction: column;
+   width: 500px;
+
+
+}
+
+.promo-content{
+padding: 72px 180px;
+}
+.for-zabo{
+
+padding: 72px 180px;
+
+}
+    }
