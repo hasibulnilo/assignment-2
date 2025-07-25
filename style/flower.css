@@ -294,7 +294,7 @@ p {
   background-image: url("../assets/news-letter-bg.png"); /* Replace with your image filename */
   background-size: cover;
   background-position: center;
-  padding: 200px ;
+  padding: 200px 20px ;
   position: relative;
   text-align: center;
   color: white;
