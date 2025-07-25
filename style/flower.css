@@ -53,7 +53,7 @@
 
 .nav-link {
   text-decoration: none;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
 }
 
@@ -67,7 +67,7 @@
 }
 
 .banner-title h1 {
-  font-size: 55px;
+  font-size: 3.44rem;
   font-weight: 700;
   margin-top: 45px;
 }
@@ -122,13 +122,13 @@ p {
 }
 
 .card span {
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: 700;
   margin: 30px;
 }
 
 .card h4 {
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: 600;
   margin: 10px;
 }
@@ -205,7 +205,7 @@ p {
   color: #00000080;
   line-height: 1.5;
   list-style-type: disc;
-  font-size: 22px;
+  font-size: 1.36rem;
 }
 
 /* Deals style */
@@ -262,7 +262,7 @@ p {
   text-decoration: underline;
   color: white;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 1rem;
   display: inline-block;
   margin-top: 5px;
 }
@@ -284,7 +284,7 @@ p {
   text-decoration: underline;
   color: white;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 1rem;
   display: inline-block;
   margin-top: 5px;
 }
@@ -381,7 +381,7 @@ p {
 .footer-logo p {
   max-width: 250px;
   color: #00000080;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.6;
   text-align: left;
 }
@@ -400,7 +400,7 @@ p {
 .footer-links a {
   text-decoration: none;
   color: #444;
-  font-size: 14px;
+  font-size: 1rem;
   transition: color 0.3s ease;
 }
 
@@ -429,12 +429,12 @@ p {
 /* navbar and banner */
 @media screen and (max-width: 576px) {
   .navbar {
-    width: 550px;
+    width: 160%;
     margin: 80px 40px 35px 50px;
   }
 
   .banner-img {
-    padding: 40px;
+    padding: 70px 200px;
   }
   .none {
     display: none;
@@ -444,11 +444,13 @@ p {
   }
   .banner h1 {
     margin: 30px 25px;
-    font-size: 45px;
+    font-size: 2.813rem;
   }
   .banner p {
     margin: 20px;
     margin-top: -15px;
+    position: relative;
+    left: 0px;
   }
 }
 
@@ -458,11 +460,18 @@ p {
   .plants h2,
   p {
     margin-left: 130px;
-    text-align: center;
+   
+    position: relative;
+    left: 100px;
+
+   
+   
   }
   .plants-card {
     grid-template-columns: repeat(2, 1fr);
     margin-left: 25px;
+    width: 170%;
+
   }
 
   .none2 {
@@ -473,21 +482,21 @@ p {
 /*flower and plant responsive  */
 @media screen and (max-width: 576px) {
   .feature-section {
-    width: 550px;
+    width: 150%;
     flex-direction: column;
   }
   .none3 {
     display: none;
   }
   .image-container {
-    width: 550px;
+    width: 120%;
     position: relative;
-    right: 50px;
+    right: 60px;
 
     margin-top: 0;
   }
   .text-content {
-    width: 500px;
+    width: 150%;
     position: relative;
     right: 50px;
     margin-top: 0px;
@@ -505,30 +514,39 @@ p {
 
 /* Deals responsive for mobile  */
 @media screen and (max-width: 576px) {
-  .deals h2,
-  p {
-    margin-left: 160px;
+  .deals h2
+  {
+     position: relative;
+     left: 130px;
+    
+  }
+
+  .deals p{
+
     text-align: center;
+   position: relative;
+   left: 70px;
+
   }
 
   .promo-container {
     flex-direction: column;
-    width: 520px;
+    width: 200%;
   }
 
   .promo-content {
-    padding: 72px 200px;
+    padding: 72px 290px;
   }
   .for-zabo {
-    padding: 72px 180px;
+    padding: 72px 270px;
   }
 }
 
-/* email input section */
+/* join section */
 
 @media screen and (max-width: 576px) {
   .subscribe-section {
-    width: 610px;
+    width: 180%;
     margin-bottom: 10px;
     margin-top: 80px;
   }
@@ -545,10 +563,11 @@ p {
   }
 
   .footer-logo p {
-    width: 500px;
+    width: 100%;
     position: relative;
-    right: 160px;
+  left: -130px;
     text-align: left;
+
    
   }
 
