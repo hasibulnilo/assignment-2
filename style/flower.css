@@ -294,7 +294,7 @@ p {
   background-image: url("../assets/news-letter-bg.png"); /* Replace with your image filename */
   background-size: cover;
   background-position: center;
-  padding: 200px 20px ;
+  padding: 200px 20px;
   position: relative;
   text-align: center;
   color: white;
@@ -354,16 +354,13 @@ p {
   background-color: #d94d0f;
 }
 
-
 /* Footer section */
 
-
 .footer-section {
- 
   padding: 60px 40px;
-   font-family: "Noto Serif", serif;
-   align-items: center;
-   margin: 0 auto;
+  font-family: "Noto Serif", serif;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .footer-container {
@@ -375,8 +372,6 @@ p {
   max-width: 1140px;
   margin: auto;
 }
-
-
 
 .footer-logo img {
   width: 120px;
@@ -429,13 +424,6 @@ p {
 .footer-social img:hover {
   transform: scale(1.1);
 }
-
-
-
-
-
-
-
 
 /* responsive media query for mobile */
 /* navbar and banner */
@@ -540,8 +528,7 @@ p {
 
 @media screen and (max-width: 576px) {
   .subscribe-section {
-    width: 550px;
-    left: 30px;
+    width: 610px;
     margin-bottom: 10px;
     margin-top: 80px;
   }
@@ -560,8 +547,7 @@ p {
   .footer-logo p {
     max-width: 100%;
     position: relative;
-    right:160px;
-
+    right: 160px;
   }
 
   .footer-links {
