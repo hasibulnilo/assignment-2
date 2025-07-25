@@ -545,9 +545,11 @@ p {
   }
 
   .footer-logo p {
-    max-width: 100%;
+    width: 500px;
     position: relative;
     right: 160px;
+    text-align: left;
+   
   }
 
   .footer-links {
