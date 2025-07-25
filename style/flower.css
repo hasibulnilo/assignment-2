@@ -294,7 +294,7 @@ p {
   background-image: url("../assets/news-letter-bg.png"); /* Replace with your image filename */
   background-size: cover;
   background-position: center;
-  padding: 200px 20px;
+  padding: 200px ;
   position: relative;
   text-align: center;
   color: white;
@@ -353,6 +353,89 @@ p {
 .subscribe-form button:hover {
   background-color: #d94d0f;
 }
+
+
+/* Footer section */
+
+
+.footer-section {
+ 
+  padding: 60px 40px;
+   font-family: "Noto Serif", serif;
+   align-items: center;
+   margin: 0 auto;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1140px;
+  margin: auto;
+}
+
+
+
+.footer-logo img {
+  width: 120px;
+  margin-bottom: 15px;
+}
+
+.footer-logo p {
+  max-width: 250px;
+  color: #00000080;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.footer-links {
+  display: flex;
+  gap: 60px;
+}
+
+.footer-links div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #444;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #000;
+}
+
+.footer-social {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.footer-social img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  transition: transform 0.2s;
+}
+
+.footer-social img:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+
 
 /* responsive media query for mobile */
 /* navbar and banner */
@@ -461,5 +544,43 @@ p {
     left: 30px;
     margin-bottom: 10px;
     margin-top: 80px;
+  }
+}
+
+/* responsive footer section */
+@media screen and (max-width: 576px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: flex-start; /* align content to the left */
+    text-align: left;
+    gap: 30px;
+    padding: 20px;
+  }
+
+  .footer-logo p {
+    max-width: 100%;
+    position: relative;
+    right:160px;
+
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .footer-links div {
+    align-items: flex-start;
+  }
+
+  .footer-social {
+    justify-content: flex-start;
+    gap: 12px;
+  }
+
+  .footer-social img {
+    width: 28px;
+    height: 28px;
   }
 }
