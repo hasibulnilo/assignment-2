@@ -429,31 +429,31 @@ p {
 /* navbar and banner */
 @media screen and (max-width: 576px) {
   .navbar {
-    width: 160%;
-    margin: 80px 40px 35px 50px;
+
+width: 576px;
+transform: translateX(15%);
   }
 
-  .banner-img {
-    width: 100%;
-    max-width: 50%;
+ 
 
+  .banner-img img{
+width: 100%;
+transform: translateX(20%);
   }
   .none {
     display: none;
   }
   .banner {
-    flex-direction: column-reverse;
+  flex-direction: column-reverse;
+  width: 150%;
+    
   }
-  .banner h1 {
-    margin: 30px 35px;
-    font-size: 2.813rem;
-  }
-  .banner p {
-    margin: 20px;
-    margin-top: -15px;
-    position: relative;
-    left: 15px;
-  }
+.banner-title p{
+
+ transform: translateX(-50%);
+ margin-top: 50px;
+}
+
 }
 
 /* Plant reponsive for mobile */
